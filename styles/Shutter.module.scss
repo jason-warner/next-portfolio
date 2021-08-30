@@ -1,0 +1,90 @@
+@keyframes blk2trans {
+    0% {
+      border-color: black;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  @keyframes trans2blk {
+    0% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: black;
+    }
+  }
+  
+  .shutter {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: inherit;
+    max-height: inherit;
+    position: absolute;
+    top: 0;
+    overflow: hidden hidden;
+    border: calc(5vw + 5vh) solid black;
+    z-index: 1;
+    &.a0 {
+      animation: trans2blk 333ms linear 0ms forwards;
+    }
+    &.b0 {
+      animation: blk2trans 333ms linear 270ms forwards;
+    }
+    &.a1 {
+      animation: trans2blk 333ms linear 30ms forwards;
+    }
+    &.b1 {
+      animation: blk2trans 333ms linear 240ms forwards;
+    }
+    &.a2 {
+      animation: trans2blk 333ms linear 60ms forwards;
+    }
+    &.b2 {
+      animation: blk2trans 333ms linear 210ms forwards;
+    }
+    &.a3 {
+      animation: trans2blk 333ms linear 90ms forwards;
+    }
+    &.b3 {
+      animation: blk2trans 333ms linear 180ms forwards;
+    }
+    &.a4 {
+      animation: trans2blk 333ms linear 120ms forwards;
+    }
+    &.b4 {
+      animation: blk2trans 333ms linear 150ms forwards;
+    }
+    &.a5 {
+      animation: trans2blk 333ms linear 150ms forwards;
+    }
+    &.b5 {
+      animation: blk2trans 333ms linear 120ms forwards;
+    }
+    &.a6 {
+      animation: trans2blk 333ms linear 180ms forwards;
+    }
+    &.b6 {
+      animation: blk2trans 333ms linear 90ms forwards;
+    }
+    &.a7 {
+      animation: trans2blk 333ms linear 210ms forwards;
+    }
+    &.b7 {
+      animation: blk2trans 333ms linear 60ms forwards;
+    }
+    &.a8 {
+      animation: trans2blk 333ms linear 240ms forwards;
+    }
+    &.b8 {
+      animation: blk2trans 333ms linear 30ms forwards;
+    }
+    &.a9 {
+      animation: trans2blk 333ms linear 270ms forwards;
+    }
+    &.b9 {
+      animation: blk2trans 333ms linear 0ms forwards;
+    }
+  }
