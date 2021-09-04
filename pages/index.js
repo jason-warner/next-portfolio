@@ -14,8 +14,7 @@ const Index = () => {
       </Head>
 
       <main className={styles.main}>
-        {/* <Carousel /> */}
-        <Shutter />
+        
       </main>
 
       <footer className={styles.footer}>
